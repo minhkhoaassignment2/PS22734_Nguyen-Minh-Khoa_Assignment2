@@ -1,0 +1,133 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{
+    background: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: auto;
+    margin: auto;
+}
+.logo{
+    height: 100px;
+    background: #ffffff;
+    text-align: center;
+    padding-top: 0px;
+}
+.menu{
+    height: 35px;
+    background: #272f54;
+}
+.banner{
+    height: 250px;
+}
+
+.content{
+    height: 985px;
+    background: #ffffff;
+}
+footer{
+    height: 50px;
+    background: #bdc0ce;
+}
+.menu ul a{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul li{
+    list-style: none;
+    float:left;
+    line-height: 35px;
+    padding-left: 50px;
+}
+.menu ul li a{
+    color:#fefbfb;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.text{
+    width: 200px;
+    height: 20px;
+    border: none;
+    background: #ffffff;
+    padding-left: 5px;
+    margin-top:8px;
+}
+.timkiem{
+    width: 90px;
+    height: 20px;
+    background: #db2704;
+    border: 0.5px solid #ffffff;
+    color:#ffffff;
+}
+font{
+    text-align: right;
+    margin-right: 35px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.td{
+    width: 980px;
+    height: 65px;
+    line-height: 65px;
+}
+.td p{
+    color: #272f54;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sp1{
+    height: 415px;
+    width: 315px;
+    border: 0,5px solid #cccccc;
+    text-align: center;
+    float:left;
+    margin-right: 20px;
+}
+.tensp a{
+    text-decoration: none;
+    color: #2a2828;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tensp{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.giagoc{
+    color: #131921;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-top: 20px;
+}
+.giamgia{
+    color:#f12020;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sp2{
+    width: 360px;
+    height: 415px;
+    border: 0.5px solid #cccccc;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.bcd{
+    width: auto;
+    height: 80px;
+}
+.map{
+    width: 100%;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="form.css">
+  <title>Đăng Ký</title>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <form action="" id="form-login">
+      <header>
+        <h1 class="form-heading">ĐĂNG KÝ</h1>
+      </header>
+      <main>
+        <form method="POST" name="#">
+          <table>
+            <tr>
+              <td> Tên tài khoản</td>
+              <td><input type="text" name="txtUsername" required></td>
+            </tr>
+            <tr>
+              <td>Mật khẩu</td>
+              <td><input type="password" name="txtPassword" required></td>
+            </tr>
+            <tr>
+              <td>Xác nhận mật khẩu</td>
+              <td><input type="password" name="txtRePassword" required></td>
+            </tr>
+            <tr>
+              <td>Họ và Tên</td>
+              <td><input type="text" name="txtHoTen" required></td>
+            </tr>
+            <tr>
+              <td>Ngày sinh</td>
+              <td><input type="date" name="txtDate" required></td>
+            </tr>
+            <tr>
+              <td>Điện thoại</td>
+              <td><input type="tel" name="txtTel" requiredv></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><input type="email" name="txtEmail" required></td>
+            </tr>
+            <tr>
+              <td>Địa chỉ</td>
+              <td><textarea rows="2" cols="30" required></textarea></td>
+            </tr>
+            <tr>
+              <td>Tỉnh/ Thành Phố</td>
+              <td>
+                <select>
+                  <option value="1">Hà Nội</option>
+                  <option value="2">Hồ Chí Minh</option>
+                  <option value="3">Bình Định</option>
+                  <option value="4">Phú Yên</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><input type="submit" value="ĐĂNG KÝ"></td>
+            </tr>
+          </table>
+        </form>
+      </main>
+</body>
+
+</html>
